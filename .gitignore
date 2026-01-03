@@ -1,0 +1,22 @@
+# Gradle
+.gradle/
+build/
+*/build/
+
+# Android Studio/IntelliJ
+.idea/
+*.iml
+local.properties
+captures/
+.navigation/
+.cxx/
+
+# VS Code
+.vscode/
+
+# Generated
+app/release/
+app/debug/
+
+# OS
+.DS_Store

@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Budget Tracker</string>
+    <string name="budget_form_title">Declare Monthly Budget</string>
+    <string name="expense_form_title">Add Expense</string>
+    <string name="category_hint">Category (e.g., Groceries)</string>
+    <string name="label_hint">Label (e.g., Personal, Family)</string>
+    <string name="amount_hint">Amount</string>
+    <string name="add_budget">Add Budget</string>
+    <string name="add_expense">Add Expense</string>
+    <string name="budget_list_title">Active Budgets</string>
+    <string name="expense_list_title">Recent Expenses</string>
+    <string name="empty_budgets">No budgets yet. Add one above.</string>
+    <string name="empty_expenses">No expenses yet.</string>
+    <string name="over_budget">Over budget</string>
+    <string name="within_budget">On track</string>
+    <string name="currency_prefix">₹</string>
+</resources>
