@@ -1,10 +1,23 @@
 <resources>
-    <color name="md_theme_primary">#1D3557</color>
+    <!-- Dark palette -->
+    <color name="app_bg">#0C0E18</color>
+    <color name="card_dark">#121827</color>
+    <color name="button_dark">#161C2A</color>
+    <color name="text_primary">#FFFFFF</color>
+    <color name="text_secondary">#9AA6C4</color>
+    <color name="expense_red">#E57373</color>
+    <color name="income_green">#5FD0A4</color>
+    <color name="networth_glow_start">#20304D</color>
+    <color name="networth_glow_mid">#2A3E60</color>
+    <color name="networth_glow_end">#0F1320</color>
+
+    <!-- Backward compatibility with earlier naming -->
+    <color name="md_theme_primary">#20304D</color>
+    <color name="md_theme_secondary">#2A3E60</color>
     <color name="md_theme_on_primary">#FFFFFF</color>
-    <color name="md_theme_secondary">#457B9D</color>
-    <color name="md_theme_surface">#F6F9FC</color>
-    <color name="md_theme_on_surface">#1A1B1E</color>
-    <color name="md_theme_error">#E63946</color>
-    <color name="md_theme_success">#2A9D8F</color>
-    <color name="md_theme_border">#D1D9E6</color>
+    <color name="md_theme_surface">@color/app_bg</color>
+    <color name="md_theme_on_surface">@color/text_primary</color>
+    <color name="md_theme_error">@color/expense_red</color>
+    <color name="md_theme_success">@color/income_green</color>
+    <color name="md_theme_border">#1F2A3C</color>
 </resources>
